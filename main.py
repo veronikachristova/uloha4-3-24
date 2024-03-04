@@ -1,6 +1,6 @@
 class Kalkulacka:
     def __init__(self):
-        self.numbers = [15, 47, 122, 4, 5, 45]
+        self.numbers = {15, 47, 122, 4, 5, 45}
 
     def sum(self):
         return sum(self.numbers)
